@@ -152,23 +152,26 @@ CLASSI DI SPACING
 }
 .poster {
     box-sizing: border-box;
-    background: #fff;
     margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: flex-end; /* ⬅️ spinge tutto in basso */
     width: 100vw;
     height: 100vh;
     max-width: 1440px;
     max-height: 1024px;
+    color: #000;
+    padding-bottom: 2rem; /* spazio dal bordo inferiore */
 }
 body {
     margin: 0;
     padding: 0;
-    font-family:'Times New Roman', Times, serif;
-    background: #fff;
-    min-height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    background: url("images/crop.jpg") no-repeat center center fixed;
+    background-size: cover; /* immagine adattata a tutto schermo */
+    height: 100vh;
+    overflow: hidden; /* blocca lo scroll */
 }
 /* X-Small devices (portrait phones, less than 576px)
 No media query for `xs` since this is the default in Bootstrap */
