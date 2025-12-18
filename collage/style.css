@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("Immagine\ 17-12-25\ -\ 16.23.jpeg") no-repeat center center fixed;
+    background-size: cover; /* immagine adattata a tutto schermo */
+
+    overflow: hidden; /* blocca lo scroll */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+.collage-float {
+  align-items: center;
+  width: 800px;
+  overflow: hidden; /* per contenere i float */
+  margin: 0 auto; /* centra il collage */
+  font-size: 0;
+}
+.img-float {
+  width: 50%;
+  height: 50%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  margin-left: 45px;
+}
+.img-float-right {
+  float: right;
+  width: 50%;
+  height: 50%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  margin-left: -45px;
+}
+.flip-y {
+  transform: scaleY(-1);
+}
+.flip-x {
+  transform: scaleX(-1);
+}
+.flip-xy {
+  transform: scaleX(-1) scaleY(-1);
+}

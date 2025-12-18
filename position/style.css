@@ -1,0 +1,20 @@
+html {
+    font-size: 16px; /* 16px base font size */
+}
+
+#page {
+    width: 100vw;
+    height: 100dvh;
+    background-color: #f4d58d;
+}
+.square {
+    width: 100px;
+    aspect-ratio: 1/1;
+    background-color: #333;
+}
+.circle {
+    width: 150px;
+    aspect-ratio: 1/1;
+    background-color: #222;
+}
+
